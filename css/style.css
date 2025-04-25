@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #000;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 2px solid #f4a261;
+}
+
+header img {
+    height: 50px;
+    margin-right: 15px;
+}
+
+header h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.main-image {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.main-image img {
+    max-width: 60%;
+    border-radius: 10px;
+}
+
+.main-image .portrait {
+    margin-left: 20px;
+    text-align: center;
+}
+
+.main-image .portrait img {
+    height: 150px;
+    border-radius: 50%;
+}
+
+.main-image .portrait h2 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.cards-section {
+    padding: 20px;
+}
+
+.cards-section h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.cards {
+    display: flex;
+    gap: 15px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    flex: 1;
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.icons-section {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.icons-section h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon {
+    text-align: center;
+}
+
+.icon img {
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+footer {
+    padding: 20px;
+    background-color: #f4a261;
+    color: #fff;
+    text-align: center;
+}
+
+footer .social-icons {
+    margin: 10px 0;
+}
+
+footer .social-icons img {
+    height: 30px;
+    margin: 0 5px;
+}
