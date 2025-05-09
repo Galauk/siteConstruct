@@ -97,10 +97,14 @@ header h1 {
 }
 
 .icon img {
-    height: 50px;
+    height: 100px;
     margin-bottom: 10px;
+    border-radius: 50px;
 }
-
+.contact-section{
+    width: 100%;
+    align-items: center;
+}
 footer {
     padding: 20px;
     background-color: #f4a261;
