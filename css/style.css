@@ -109,11 +109,11 @@ header h1 {
     border-radius: 100px;
 }
 
-.icons-section label {
+.icons-section p {
     font-weight: bold;
 }
 
-.icons-section p {
+.icons-section label {
     font-style: italic;
     font-size: 12px;
     line-height: inherit;
