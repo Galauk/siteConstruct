@@ -29,6 +29,7 @@ header h1 {
     align-items: center;
     padding: 20px;
     width: 100%;
+    justify-content: space-between;
 }
 
 .main-image img {
@@ -43,8 +44,8 @@ header h1 {
 }
 
 .main-image .portrait img {
-    height: 150px;
-    border-radius: 50%;
+    height: 200px;
+    border-radius: 30px;
 }
 
 .main-image .portrait h2 {
