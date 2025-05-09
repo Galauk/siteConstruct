@@ -33,7 +33,8 @@ header h1 {
 
 .main-image img {
     max-width: 100%;
-    border-radius: 10px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
 }
 
 .main-image .portrait {
