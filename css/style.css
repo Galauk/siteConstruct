@@ -59,6 +59,30 @@ header h1 { font-size: 18px; margin: 0; font-weight: 700; }
 
 .contact-section { padding: 16px; text-align: center; }
 
+/* Mobile-only carousel styles for testimonials */
+/* These activate when JS adds the `carousel` class to `.icons` */
+.icons.carousel {
+    display: flex; /* horizontal row */
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    gap: 0; /* spacing handled inside items */
+}
+.icons.carousel .icon {
+    min-width: 100%;
+    flex: 0 0 100%;
+    scroll-snap-align: start;
+    box-sizing: border-box;
+    margin: 0; /* remove side spacing used in desktop layout */
+}
+.icons.carousel .icon img { float: none; margin: 0 auto 12px; display: block; }
+
+/* Simple dots below carousel */
+.carousel-controls { display:flex; justify-content:center; gap:8px; margin-top:10px; }
+.carousel-dot { width:10px; height:10px; border-radius:50%; background:rgba(0,0,0,0.25); border:0; padding:0; }
+.carousel-dot.active { background: rgba(0,0,0,0.75); }
+
+
 /* Footer */
 footer { padding: 16px; background-color: #f4a261; color: #fff; text-align: center; }
 footer .social-icons { margin: 8px 0; }
